@@ -1736,10 +1736,10 @@ body.is-loading *:after {
   margin: 0 5px;
 }
 .inner .para-text {
-  padding-left: 50px;
+  padding-left: 20px;
 }
 .inner .para-text-100 {
-  padding-left: 100px;
+  padding-left: 35px;
 }
 
 @media screen and (max-width: 1280px) {
