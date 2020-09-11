@@ -2850,11 +2850,13 @@ body {
   width: 100%;
   z-index: 10001;
   box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.075);
-  text-align: center;
+  /* text-align: center; */
+  text-align: left;
+  padding: 2px 5px 2px 15px;
 }
 
 #header .logo {
-  color: #e7f730;
+  color: #3665ea;
   font-weight: bold;
 
   font-size: 1.95em;
@@ -2865,13 +2867,14 @@ body {
 }
 
 #header .logo-img {
-  position: absolute;
+  /* position: absolute; */
   top: 1px;
   right: 10px;
   width: auto;
   height: auto;
   max-width: 100%;
   max-height: 100%;
+  /* width: 50px; */
 }
 
 #header nav {
@@ -2886,13 +2889,22 @@ body {
 }
 
 #header nav.right {
-  right: 2em;
+  right: 0.5em;
+}
+
+#header nav.right a {
+ margin-left: 5px;
+}
+#header nav.right a.active{
+  border-bottom: 1px solid;
 }
 
 #header nav .button {
-  padding: 0 2em;
-  height: 3.25em;
-  line-height: 3.25em;
+  padding: 0 1em;
+  height: 1.25em;
+  line-height: 1.25em;
+  outline: none;
+  border: 0;
 }
 
 #header nav a {
@@ -2950,7 +2962,7 @@ body {
   }
 
   #header nav.right {
-    display: none;
+    /* display: none; */
   }
 }
 
@@ -2959,7 +2971,7 @@ body {
     min-width: 320px;
   }
   #header .logo {
-    display: none;
+    /* display: none; */
     font-size: 1.25em;
   }
 }
@@ -3128,7 +3140,7 @@ body {
 
 @media screen and (max-width: 1280px) {
   #banner {
-    padding: 12em 0 10em 0;
+    padding: 4em 0 10em 0;
   }
 }
 
@@ -3154,7 +3166,7 @@ body {
 
 @media screen and (max-width: 480px) {
   #banner {
-    padding: 4em 2em 2em 2em;
+    padding: 2em 2em 2em 2em;
   }
 
   #banner h1 {
