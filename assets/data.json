@@ -1,5 +1,26 @@
 [
   {
+    "id": 111,
+    "category": 11,
+    "title": "Diesel",
+    "packSize": "20L",
+    "image": [
+      "diesel.png"
+    ],
+    "desc": "High Speed Diesel, Free delivery within 1km. Minimum order quantity 20L",
+    "spec": [
+      "Rate applicable on that particular day",
+      "Will be delivered in Sealed Container",
+      "Minimum order quantity is 20L",
+      "Free Delivery within 1km"
+    ],
+      "marketPrice": 0,
+      "sellingPrice": 0,
+      "unitName": "L",
+      "vat": 0,
+      "gst": 0
+  },
+  {
     "id": 1,
     "category": 1,
     "title": "MAK 2T",
@@ -14,8 +35,8 @@
       "Reduces spark plug fouling and exhaust system deposits",
       "Easily mixes with fuel"
     ],
-      "marketPrice": 255,
-      "sellingPrice": 220,
+      "marketPrice": 295,
+      "sellingPrice": 250,
       "unitName": "L",
       "vat": 0,
       "gst": 18
@@ -56,8 +77,8 @@
       "Quick engine response and increased power output",
       "Better fuel economy through unique Friction Modifier Technology"
     ],
-      "marketPrice": 334,
-      "sellingPrice": 320,
+      "marketPrice": 352,
+      "sellingPrice": 330,
       "unitName": "Pack",
       "vat": 0,
       "gst": 18
